@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+.response pre,
+.response code {
+  background-color: #343434;
+  color: white !important; /* dark text */
+}
+.left {
+  background: black;
+}
