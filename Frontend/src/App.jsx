@@ -72,7 +72,7 @@ function add(a, b) {
         </button>
       </div>
 
-      {/* Right Section: Review Response / Loader */}
+    {/* Right section */}
       <div className="p-3 h-[50%] md:h-full w-full md:w-[60%] rounded-lg bg-[#343434] flex items-center justify-center">
         <div className="w-full h-full max-h-[50vh] md:max-h-none overflow-auto md:overflow-hidden">
           {isLoading ? (

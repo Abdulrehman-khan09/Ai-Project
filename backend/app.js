@@ -11,4 +11,8 @@ app.use(cors())
 // ai routes
 app.use("/ai",AiRoutes)
 
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+})
+
 module.exports = app
