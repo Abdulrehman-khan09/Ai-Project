@@ -41,7 +41,7 @@ function add(a, b) {
 
   return (
     <main className="h-screen p-3 gap-4 w-screen bg-gray-500 flex flex-col md:flex-row">
-      {/* Left Section: Code Editor */}
+      {/* Left Section */}
       <div className="relative border border-[#ddd] rounded-lg p-5 bg-black text-white h-[50%] md:h-full w-full md:w-[40%] flex flex-col">
         <div className="flex-grow overflow-auto">
           <Editor
@@ -73,7 +73,7 @@ function add(a, b) {
       </div>
 
     {/* Right section */}
-      <div className="p-3 h-[50%] md:h-full w-full md:w-[60%] rounded-lg bg-[#343434] flex items-center justify-center">
+      <div className="p-3 h-[50%] md:h-full  w-full md:w-[60%] rounded-lg bg-[#343434] flex items-center justify-center">
         <div className="w-full h-full max-h-[50vh] md:max-h-none overflow-auto md:overflow-hidden">
           {isLoading ? (
             <div className="flex items-center justify-center w-full h-full">
